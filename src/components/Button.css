@@ -5,6 +5,11 @@
     height:4em;
     text-align: center;
     flex:1;
+    outline-offset: -3px;
+}
+
+.btn-custom:hover {
+    outline-offset: -1px;
 }
 
 .operator {

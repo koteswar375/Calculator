@@ -9,7 +9,7 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      input:'0'
+      input:''
     }
   }
   
@@ -18,11 +18,17 @@ class App extends Component {
   }
   
   clearInput = () => {
-    this.setState({input:'0'})
+    this.setState({input:''})
   }
 
   evaluateResult = () => {
-    this.setState({input: evaluate(this.state.input)})
+    let result;
+    try {
+      result = evaluate(this.state.input)
+      this.setState({input: result})
+    } catch {
+      alert('Incorrect expression');
+    }
   }
 
   render() {
