@@ -4,9 +4,9 @@
 
 A simple calculator app in React
 
-![logo](https://raw.githubusercontent.com/koteswar375/Spacestagram/main/src/Spacestagram.jpg)
+![logo](https://raw.githubusercontent.com/koteswar375/Calculator/master/src/logo.jpg)
 
-The site is hosted at https://koteswar375.github.io/Spacestagram/
+https://koteswar375.github.io/Calculator/
 
 ## Getting Started with App
 
